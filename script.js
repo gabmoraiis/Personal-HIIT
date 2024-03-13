@@ -111,17 +111,17 @@ const questionsInfo = [
 ]
 const headerButtons = document.querySelectorAll("#header-buttons-box .header-buttons");
 const middleSection = document.getElementById("middle1");
-const middle2Section = document.getElementById("middle2");
 const middle3Section = document.getElementById("middle3");
+const middle6Section = document.getElementById("middle6");
 
 headerButtons[0].addEventListener("click", () => {
     middleSection.scrollIntoView({ behavior: 'smooth' });
 });
 headerButtons[1].addEventListener("click", () => {
-    middle2Section.scrollIntoView({ behavior: 'smooth' });
+    middle3Section.scrollIntoView({ behavior: 'smooth' });
 });
 headerButtons[2].addEventListener("click", () => {
-    middle3Section.scrollIntoView({ behavior: 'smooth' });
+    middle6Section.scrollIntoView({ behavior: 'smooth' });
 });
 
 comparationInfo.forEach((item) => {
