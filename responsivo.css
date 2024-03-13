@@ -1,0 +1,199 @@
+@media (max-width:1281px) {
+    #header-buy-button-box .header-buy-button {
+        font-size: 16px;
+    }
+
+    #introduction-texts-box #introduction-text1 {
+        font-size: 26px;
+    }
+
+    #introduction-texts-box #introduction-text2 {
+        font-size: 16.5px;
+    }
+
+    #introduction-videobox {
+        width: 40%;
+    }
+
+    #middle1-text h2 {
+        font-size: 34px;
+    }
+
+    #middle1-titles-box #title1-box {
+        font-size: 20px;
+    }
+
+    #middle1-titles-box #title2-box {
+        font-size: 20px;
+    }
+
+    #middle1-lists-box #list1-box {
+        width: 40%;
+    }
+
+    #middle1-lists-box #list2-box {
+        width: 40%;
+    }
+
+    .list1Li {
+        font-size: 10px;
+    }
+
+    .list2Li {
+        font-size: 10px;
+    }
+
+    .fa-circle-xmark {
+        font-size: 22px;
+    }
+
+    .fa-circle-check {
+        font-size: 22px;
+    }
+
+    .carrossel {
+        width: 450px;
+        height: 450px;
+    }
+
+    .carrossel #back-button {
+        left: 31%;
+        font-size: 25px;
+    }
+
+    .carrossel #next-button {
+        right: 30.2%;
+        font-size: 25px;
+    }
+
+    #middle2 .middle2-textbox {
+        width: 25%;
+    }
+
+    #middle2 .middle2-textbox2 {
+        width: 25%;
+    }
+
+    .middle2-textbox .middle2-text1 {
+        font-size: 28px;
+    }
+
+    .middle2-textbox .middle2-text2 {
+        font-size: 12px;
+    }
+
+    .middle2-textbox .middle2-text3 {
+        font-size: 10px;
+        margin-top: 5%;
+    }
+
+    .middle2-textbox2 .middle2-text4 {
+        font-size: 28px;
+    }
+
+    .middle2-textbox2 .middle2-text5 {
+        font-size: 12px;
+    }
+
+    .middle2-textbox2 .middle2-text6 {
+        font-size: 10px;
+        margin-top: 5%;
+    }
+
+    #whats-button {
+        font-size: 18px;
+    }
+    .whats-button-sticky {
+        width: 4.5%;
+    }
+    #middle3-textbox h4{
+        font-size: 34px;
+    }
+    #middle3-textbox p{
+        font-size: 20px;
+    }
+    #modules-box1::after {
+    width: 10px;
+    }
+    .modules-infobox1 .saiba-mais {
+        font-size: 11px;
+    }
+    .modules-infobox2 .saiba-mais {
+        font-size: 11px;
+    }
+    .saiba-mais-titulo {
+        font-size: 24px;
+    }
+    .saiba-mais-descricao {
+        font-size: 12px;
+    }
+    .advantage .advantage-title {
+        font-size: 29px;
+    }
+    .advantage .advantage-description {
+        font-size: 12px;
+    }
+    #assign-intro span {  
+        font-size: 40px;
+    }
+    #assign-intro h3 {
+        font-size: 14px;
+    }
+    #assign-price #price {
+        font-size: 80px;
+    }
+    #middle4 #assign-container{
+        box-shadow: 20px 20px 1px 1px #f9f047;
+    }
+    #assign-container .plan {
+        font-size: 18px;
+    }
+    .assign-titles {
+        font-size: 20px;
+    }
+    #benefits-list .fa-solid.fa-check {
+        font-size: 14px;
+    }
+    #benefit {
+        font-size: 14px;
+    }
+    #bonus ul {
+        font-size: 14px;
+    }
+    #assign-button button {
+        height: 30%;
+        font-size: 32px;
+    }
+    #middle5 #middle5-textbox {
+        font-size: 38px;
+    }
+    #professor-container #professor-image {
+        width: 20%;;
+        height: 75%;
+    }
+    #professor-container #professor-info{
+        font-size: 12px;
+    }
+    #professor-info .fa-brands.fa-slack {
+        font-size: 16px;
+    }
+    #middle6 #middle6-textbox {
+        font-size: 38px;
+    }
+    #questions-container #question {
+        font-size: 20px;
+    }
+    #question .fa-solid {
+        font-size: 16px;
+    }
+    #questions-container #answer{
+        font-size: 14px;
+        margin-left: 2%;
+    }
+    #socials button {
+        font-size: 30px;
+    }
+    footer #copy {
+        font-size: 12px;
+    }
+}

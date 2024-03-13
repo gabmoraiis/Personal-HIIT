@@ -233,7 +233,6 @@ moduleInfo.forEach((item) => {
 const botoes = document.querySelectorAll(".saiba-mais")
 const saibaMaisInfo = document.querySelectorAll('.saiba-mais-info');
 
-
 botoes.forEach((botao, indice) => {
     botao.addEventListener("click", () => {
 
@@ -259,12 +258,13 @@ botoes.forEach((botao, indice) => {
 
 document.addEventListener("scroll", () => {
     const whatsButtonSticky = document.querySelector(".whats-button-sticky");
+    const appearsSignal = document.documentElement.scrollHeight; 
     let rolagemVertical = window.scrollY;
-
-    if (rolagemVertical >= 2400) {
+    
+    if (rolagemVertical >= (appearsSignal * 0.26)) {
         whatsButtonSticky.style.cursor = "pointer";
         whatsButtonSticky.style.opacity = "1";
-    } else if (rolagemVertical <= 2200) {
+    } else if (rolagemVertical <= (appearsSignal * 0.24)) {
         whatsButtonSticky.style.opacity = "0";
         whatsButtonSticky.style.cursor = "default";
     }
@@ -340,7 +340,7 @@ questionDiv.forEach((question, indice) => {
             question.classList.add('selecionado');
             question.querySelector('i').classList.remove('fa-circle-chevron-right');
             question.querySelector('i').classList.add('fa-circle-chevron-down');
-            answerDiv[indice].style.transform = "translateY(105px)";
+            answerDiv[indice].style.transform = "translateY(150%)";
             setTimeout(() => {
                 answerDiv[indice].style.opacity = "1";
             }, 450);

@@ -44,8 +44,8 @@ body {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0%;
+    left: 0%;
     width: 95%;
     height: 4px;
     background: linear-gradient(to right, #0fd850, #f9f047);
@@ -122,7 +122,7 @@ a {
     background-color: #39e600;
     width: 70%;
     height: 40%;
-    background-image: linear-gradient( -30deg, #f10d5e 0%, #ffb43e 25%, #43e03c 50%, #ffb43e 100%);
+    background-image: linear-gradient(-30deg, #f10d5e 0%, #ffb43e 25%, #43e03c 50%, #ffb43e 100%);
     overflow: hidden;
     background-size: 200% 200%;
     border: #000000 double 2px;
@@ -199,7 +199,7 @@ main #middle1::after {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: -760px;
+    bottom: -80%;
     left: 0;
     width: 95%;
     height: 4px;
@@ -284,7 +284,7 @@ main #middle1::after {
     left: 0;
     width: 100%;
     height: 2px;
-    background:#cccccc;
+    background: #cccccc;
 }
 
 #middle1-lists-box #list2-box {
@@ -361,7 +361,7 @@ main #middle2::after {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: -1525px;
+    bottom: -160%;
     left: 0;
     width: 95%;
     height: 4px;
@@ -433,7 +433,15 @@ main #middle2::after {
     height: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+}
+
+#middle2 .middle2-textbox2 {
+    width: 28%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -442,7 +450,6 @@ main #middle2::after {
     font-family: "Bebas Neue", sans-serif;
     font-size: 46px;
     color: #ffffff;
-    display: flex;
 }
 
 .middle2-textbox .middle2-text2 {
@@ -468,7 +475,38 @@ main #middle2::after {
     color: #ffffff;
 }
 
-.middle2-text3 i{
+.middle2-textbox2 .middle2-text4 {
+    height: 10%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 46px;
+    color: #ffffff;
+}
+
+.middle2-textbox2 .middle2-text5 {
+    height: 10%;
+    margin-left: 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 3%;
+}
+
+.middle2-textbox2 .middle2-text6 {
+    width: 100%;
+    height: 900%;
+    margin-top: 5%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+
+.middle2-text6 i {
     color: #0fd850;
     font-size: 16px;
 }
@@ -477,18 +515,22 @@ main #middle2::after {
     color: #0fd850;
 }
 
+.green-span span {
+    color: #ffffff;
+}
+
 #whats-button-box {
     margin-top: 10%;
-    width: 100%;
-    height: 10%;
+    width: 60%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 #whats-button {
-    width: 60%;
-    height: 110%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -557,7 +599,7 @@ main #middle3::after {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: -4385px;
+    bottom: -460%;
     left: 0;
     width: 95%;
     height: 4px;
@@ -601,7 +643,7 @@ main #middle3::after {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: -4330px;
+    bottom: -450%;
     left: 49%;
     width: 12px;
     border-radius: 100%;
@@ -727,7 +769,7 @@ main #middle4::after {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: -6290px;
+    bottom: -660%;
     left: 0;
     width: 95%;
     height: 4px;
@@ -903,7 +945,7 @@ ul .fa-star {
     color: #f7eb08;
 }
 
-#assign-container #assign-button{
+#assign-container #assign-button {
     width: 100%;
     height: 27%;
     display: flex;
@@ -912,7 +954,7 @@ ul .fa-star {
     padding-bottom: 5%;
 }
 
-#assign-button button{
+#assign-button button {
     cursor: pointer;
     width: 50%;
     height: 35%;
@@ -920,7 +962,7 @@ ul .fa-star {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1px;
-    background-image: linear-gradient( 200deg, #f10d5e 0%, #ffb43e 25%, #43e03c 50%, #ffb43e 100%);
+    background-image: linear-gradient(200deg, #f10d5e 0%, #ffb43e 25%, #43e03c 50%, #ffb43e 100%);
     overflow: hidden;
     background-size: 200% 200%;
     border: #000000 solid 2px;
@@ -928,34 +970,42 @@ ul .fa-star {
     transition: 1.5s;
 }
 
-#assign-button button:hover{
+#assign-button button:hover {
     transform: scale(1.05);
 }
 
 @keyframes slideColor {
-    0% { background-position: 0% 50% }
-      50% { background-position: 100% 50% }
-      100% { background-position: 0% 50% }
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
 
-main #middle5{
+main #middle5 {
     width: 100vw;
     height: 80vh;
     background-color: #000000;
 }
 
-main #middle5::after{
+main #middle5::after {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: -7052px;
+    bottom: -740%;
     left: 0;
     width: 95%;
     height: 4px;
     background: linear-gradient(to right, #0fd850, #f9f047);
 }
 
-#middle5 #middle5-textbox{
+#middle5 #middle5-textbox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -967,7 +1017,7 @@ main #middle5::after{
     letter-spacing: 1px;
 }
 
-#middle5 #professor-container{
+#middle5 #professor-container {
     display: flex;
     width: 100%;
     height: 85%;
@@ -976,7 +1026,7 @@ main #middle5::after{
     gap: 5%;
 }
 
-#professor-container #professor-image{
+#professor-container #professor-image {
     width: 25%;
     height: 85%;
     background-image: url('./assets/professor-foto.jpg');
@@ -985,7 +1035,7 @@ main #middle5::after{
     border: groove 2px #0fd850;
 }
 
-#professor-container #professor-info{
+#professor-container #professor-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -998,18 +1048,18 @@ main #middle5::after{
     color: #ffffff;
 }
 
-#professor-info p{
+#professor-info p {
     display: flex;
     align-items: center;
-    gap:2%;
+    gap: 2%;
 }
 
-#professor-info .fa-brands.fa-slack{
+#professor-info .fa-brands.fa-slack {
     color: #0fd850;
     font-size: 20px;
 }
 
-main #middle6{
+main #middle6 {
     width: 100vw;
     height: 90vh;
     display: flex;
@@ -1018,11 +1068,11 @@ main #middle6{
     background-color: #000000;
 }
 
-main #middle6::after{
+main #middle6::after {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: -7910px;
+    bottom: -830%;
     left: 0;
     width: 95%;
     height: 4px;
@@ -1056,16 +1106,16 @@ main #middle6::after{
     width: 54%;
     height: 5%;
     letter-spacing: 2px;
-    font-family: 'Bebas Neue',sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     color: #ffffff;
     font-size: 24px;
     display: flex;
     align-items: center;
     gap: 1%;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
-#question .fa-solid{
+#question .fa-solid {
     font-size: 18px;
     color: #0fd850;
     cursor: pointer;
@@ -1078,7 +1128,7 @@ main #middle6::after{
     background-image: url('./assets/questions-bg.gif');
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: #ffffff;
     font-size: 18px;
@@ -1091,43 +1141,42 @@ main #middle6::after{
     transition: transform 1s ease-in-out;
 }
 
-#answer p{
+#answer p {
     margin-left: 5%;
     margin-top: 1%;
 }
 
-body footer{
+body footer {
     width: 100vw;
     height: 25vh;
     background-image: url('./assets/introduction-bg.jpg');
     background-position: 90% 90%;
 }
 
-footer #logo-socials-container{
+footer #logo-socials-container {
     width: 100%;
     height: 50%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 
-#logo-socials-container #footer-logo{
+#logo-socials-container #footer-logo {
     width: 15%;
     height: 100%;
     background-image: url('./assets/logo-funcionalhiit.png');
     background-size: cover;
     background-position: 50% 48%;
     background-repeat: no-repeat;
-   
 }
 
-#logo-socials-container #socials{
+#logo-socials-container #socials {
     width: 15%;
     height: 100%;
     display: flex;
 }
 
-#socials button{
+#socials button {
     cursor: pointer;
     width: 10%;
     height: 20%;
@@ -1137,8 +1186,8 @@ footer #logo-socials-container{
     border: none;
 }
 
-footer #copy{
-    font-family: 'Lato',sans-serif;
+footer #copy {
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 2px;
