@@ -1,4 +1,182 @@
-@media (max-width:1281px) {
+@media (max-width:1850px){
+    #header-buy-button-box .header-buy-button {
+        font-size: 19px;
+    }
+
+    #introduction-texts-box #introduction-text1 {
+        font-size: 29px;
+    }
+
+    #introduction-texts-box #introduction-text2 {
+        font-size: 18.5px;
+    }
+
+    #middle1-text h2 {
+        font-size: 37px;
+    }
+
+    #middle1-titles-box #title1-box {
+        font-size: 23px;
+    }
+
+    #middle1-titles-box #title2-box {
+        font-size: 23px;
+    }
+
+    .list1Li {
+        font-size: 13px;
+    }
+
+    .list2Li {
+        font-size: 13px;
+    }
+
+    .fa-circle-xmark {
+        font-size: 25px;
+    }
+
+    .fa-circle-check {
+        font-size: 25px;
+    }
+
+    .carrossel {
+        width: 475px;
+        height: 475px;
+    }
+
+    #middle2 .middle2-textbox {
+        width: 26.5%;
+    }
+
+    #middle2 .middle2-textbox2 {
+        width: 26.5%;
+    }
+
+    .middle2-textbox .middle2-text1 {
+        font-size: 31px;
+    }
+
+    .middle2-textbox .middle2-text2 {
+        font-size: 15px;
+    }
+
+    .middle2-textbox .middle2-text3 {
+        font-size: 13px;
+        margin-top: 5%;
+    }
+
+    .middle2-textbox2 .middle2-text4 {
+        font-size: 31px;
+    }
+
+    .middle2-textbox2 .middle2-text5 {
+        font-size: 15px;
+    }
+
+    .middle2-textbox2 .middle2-text6 {
+        font-size: 13px;
+        margin-top: 5%;
+    }
+
+    #whats-button {
+        font-size: 21px;
+    }
+    .whats-button-sticky {
+        width: 4.5%;
+    }
+    #middle3-textbox h4{
+        font-size: 37px;
+    }
+    #middle3-textbox p{
+        font-size: 23px;
+    }
+    #modules-box1::after {
+        width: 10px;
+    }
+    .modules-infobox1 .saiba-mais {
+        font-size: 13px;
+    }
+    .modules-infobox2 .saiba-mais {
+        font-size: 13px;
+    }
+    .saiba-mais-titulo {
+        font-size: 27px;
+    }
+    .saiba-mais-descricao {
+        font-size: 15px;
+    }
+    .advantage .advantage-title {
+        font-size: 32px;
+    }
+    .advantage .advantage-description {
+        font-size: 15px;
+    }
+    #assign-intro span {  
+        font-size: 43px;
+    }
+    #assign-intro h3 {
+        font-size: 17px;
+    }
+    #assign-price #price {
+        font-size: 85px;
+    }
+    #middle4 #assign-container{
+        box-shadow: 25px 25px 1px 1px #f9f047;
+    }
+    #assign-container .plan {
+        font-size: 18px;
+    }
+    .assign-titles {
+        font-size: 24px;
+    }
+    #benefits-list .fa-solid.fa-check {
+        font-size: 18px;
+    }
+    #benefit {
+        font-size: 18px;
+    }
+    #bonus ul {
+        font-size: 18px;
+    }
+    #assign-button button {
+        height: 30%;
+        font-size: 32px;
+    }
+    #middle5 #middle5-textbox {
+        font-size: 41px;
+    }
+    #professor-container #professor-image {
+        width: 20%;
+        height: 75%;
+    }
+    #professor-container #professor-info{
+        font-size: 15px;
+    }
+    #professor-info .fa-brands.fa-slack {
+        font-size: 15px;
+    }
+    #middle6 #middle6-textbox {
+        font-size: 41px;
+    }
+    #questions-container #question {
+        font-size: 23px;
+    }
+    #question .fa-solid {
+        font-size: 19px;
+    }
+    #questions-container #answer{
+        font-size: 17px;
+        margin-left: 2%;
+    }
+    #socials button {
+        font-size: 33px;
+    }
+    footer #copy {
+        font-size: 15px;
+    }
+} 
+
+@media (max-width:1300px) {
     #header-buy-button-box .header-buy-button {
         font-size: 16px;
     }
@@ -9,10 +187,6 @@
 
     #introduction-texts-box #introduction-text2 {
         font-size: 16.5px;
-    }
-
-    #introduction-videobox {
-        width: 40%;
     }
 
     #middle1-text h2 {
@@ -54,16 +228,6 @@
     .carrossel {
         width: 450px;
         height: 450px;
-    }
-
-    .carrossel #back-button {
-        left: 31%;
-        font-size: 25px;
-    }
-
-    .carrossel #next-button {
-        right: 30.2%;
-        font-size: 25px;
     }
 
     #middle2 .middle2-textbox {
@@ -128,10 +292,10 @@
         font-size: 12px;
     }
     .advantage .advantage-title {
-        font-size: 29px;
+        font-size: 26px;
     }
     .advantage .advantage-description {
-        font-size: 12px;
+        font-size: 11px;
     }
     #assign-intro span {  
         font-size: 40px;
