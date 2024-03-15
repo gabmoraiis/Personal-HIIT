@@ -201,14 +201,6 @@
         font-size: 20px;
     }
 
-    #middle1-lists-box #list1-box {
-        width: 40%;
-    }
-
-    #middle1-lists-box #list2-box {
-        width: 40%;
-    }
-
     .list1Li {
         font-size: 10px;
     }
@@ -359,5 +351,679 @@
     }
     footer #copy {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px){
+    #introduction {
+        height: 75vh; 
+    }
+    #header-logo img{           
+        width: 110%;
+    }
+    nav #header-buttons-box {
+        width: 45%;
+        gap:7%;
+    }
+    #header-buttons-box .header-buttons {
+        font-size: 16px;
+    }
+    nav #header-buy-button-box {
+        width: 35%;
+        height: 145%;
+    }
+    #header-buy-button-box .header-buy-button {
+        font-size: 15px;
+    }
+    #introduction::after {
+        bottom: 25%;
+    }
+    #introduction #introduction-texts-box {
+        gap:5%;
+    }
+    #introduction-texts-box #introduction-text1 {
+        font-size: 15px;
+        width: 85%;
+        height: 15%;
+    }
+
+    #introduction-texts-box #introduction-text2 {
+        font-size: 14px;
+    }
+    #introduction-videobox #video1 {
+        width: 75%;
+    }
+    main #middle1::after {
+        bottom: -55%;
+    }
+    #middle1-text h2 {
+        font-size: 25px;
+    }
+
+    #middle1-titles-box #title1-box {
+        font-size: 14px;
+        width: 15%;
+    }
+
+    #middle1-titles-box #title2-box {
+        font-size: 14px;
+        width: 15%;
+    }
+
+    #middle1-lists-box #list1-box {
+        width: 45%;
+    }
+
+    #middle1-lists-box #list2-box {
+        width: 45%;
+    }
+
+    .list1Li {
+        font-size: 7px;
+    }
+
+    .list2Li {
+        font-size: 7px;
+    }
+
+    .fa-circle-xmark {
+        font-size: 16px;
+    }
+
+    .fa-circle-check {
+        font-size: 16px;
+    }
+    main #middle2 {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: none;
+    }
+    main #middle2::after {
+        bottom: -155%;
+    }
+    #middle2 #back-button {
+        position: absolute;
+        left: 8%;
+        margin-bottom: 10%;
+    }
+    #middle2 #next-button {
+        position: absolute;
+        right: 8.5%;
+        margin-bottom: 10%;
+    }
+    
+    #middle2 .middle2-textbox {
+        width: 100%;
+        height: 15%;
+        gap: 3%;
+    }
+
+    #middle2 .middle2-textbox2 {
+        width: 100%;
+        height: 25%;
+    }
+
+    .middle2-textbox .middle2-text1 {
+        font-size: 28px;
+    }
+
+    .middle2-textbox .middle2-text2 {
+        font-size: 12px;
+    }
+
+    .middle2-textbox .middle2-text3 {
+        width: 85%;
+        gap: 3%;
+        font-size: 8px;
+        margin-top: 5%;
+        flex-direction: row;
+    }
+
+    .middle2-textbox2 .middle2-text4 {
+        font-size: 28px;
+    }
+
+    .middle2-textbox2 .middle2-text5 {
+        font-size: 12px;
+        margin-top: 2%;
+    }
+
+    .middle2-textbox2 .middle2-text6 {
+        font-size: 10px;
+        margin-top: 1%;
+        align-items: flex-start;
+        width: 40%;
+    }
+    #whats-button-box {
+        width: 39%;
+        margin-top: 3%;
+    }
+    #whats-button {
+        font-size: 18px;
+    }
+    .middle2-text6 i {
+        font-size: 12px;
+    }
+    .whats-button-sticky {
+        left: 0.7%;
+        width: 7%;
+        height: 5%;
+        top: 91%;
+    }
+    main #middle3::after {
+        bottom: -455%;
+    }
+    #middle3-textbox h4{
+        font-size: 39.5px;
+    }
+    #middle3-textbox p{
+        font-size: 20px;
+    }
+    #modules-box1::after {
+        width: 10px;
+        bottom: -450%;
+        left: 47.7%;
+    }
+    #modules-box1 .modules-infobox1 {
+        width: 65%;
+    }
+    #modules-box2 .modules-infobox2 {
+        width: 65%;
+    }
+    .modules-infobox1 .saiba-mais {
+        font-size: 14px;
+    }
+    .modules-infobox2 .saiba-mais {
+        font-size: 14px;
+    }
+    .saiba-mais-titulo {
+        font-size: 28px;
+    }
+    .saiba-mais-descricao {
+        font-size: 14px;
+    }
+    main #middle4 {
+        padding-top: 2%;
+        height: 160vh;
+        row-gap: 2%;
+    }
+    main #middle4::after {
+        bottom: -615%;
+    }
+    #middle4 #advantages-container {
+        justify-content: none;
+        gap: 2%;
+        margin-top: 5%;
+    }
+    #advantages-container .advantage {
+        width: 21.5%;
+        height: 80%;
+    }
+    .advantage .advantage-title {
+        font-size: 21.5px;
+    }
+    .advantage .advantage-description {
+        font-size: 11px;
+    }
+    #middle4 #assign-intro {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    #assign-intro span {  
+        font-size: 40px;
+    }
+    #assign-intro h3 {
+        font-size: 14px;
+    }
+    #assign-price #price {
+        font-size: 80px;
+    }
+    #middle4 #assign-container{
+        box-shadow: 20px 20px 1px 1px #f9f047;
+        width: 70%;
+        height: 55%;    
+    }
+    #assign-container .plan {
+        font-size: 18px;
+    }
+    .assign-titles {
+        font-size: 20px;
+    }
+    #benefits-list .fa-solid.fa-check {
+        font-size: 14px;
+    }
+    #benefit {
+        font-size: 14px;
+    }
+    #bonus ul {
+        font-size: 14px;
+    }
+    #assign-button button {
+        height: 30%;
+        font-size: 28px;
+    }
+    main #middle5::after {
+        bottom: -695%;
+     }
+    #middle5 #middle5-textbox {
+        font-size: 42px;
+    }
+    
+    #professor-container #professor-image {
+        width: 50%;
+        height: 75%;
+    }
+    #professor-container #professor-info{
+        font-size: 12px;
+    }
+    #professor-info .fa-brands.fa-slack {
+        font-size: 20px;
+    }
+    main #middle6::after {
+        bottom: -785%;
+    }
+    #middle6 #middle6-textbox {
+        font-size: 38px;
+    }
+    
+    #questions-container #question {
+        width: 70%;
+        font-size: 16px;
+    }
+    #question .fa-solid {
+        font-size: 16px;
+    }
+    #questions-container #answer{
+        width: 60%;
+        font-size: 12px;
+        margin-left: 2%;
+    }
+    body footer {
+        height: 15vh;
+    }
+    #logo-socials-container #footer-logo {
+        width: 30%;
+    }
+    #logo-socials-container #socials {
+        width: 20%;
+    }
+    #socials button {
+        font-size: 25px;
+    }
+    footer #copy {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 450px){
+    #introduction {
+        height: 100vh; 
+    }
+    #header-logo img{           
+        width: 120%;
+    }
+
+    nav #header-buttons-box {
+        width: 45%;
+        gap: 9%;
+        justify-content: flex-end;
+    }
+    #header-buttons-box .header-buttons {
+        font-size: 12px;
+    }
+    nav #header-buy-button-box {
+        width: 30%;
+        height: 100%;
+    }
+    a{
+        width: 70%;
+        height: 100%;
+    }
+    #header-buy-button-box .header-buy-button {
+        width: 100%;
+        height: 35%;
+        font-size: 8px;
+    }
+    #introduction::after {
+        bottom: 0%;
+    }
+    #introduction #introduction-texts-box {
+        justify-content: flex-start;
+        margin-top: 20%;
+        height: 10%;
+        gap: 15%;
+    }
+    #introduction-texts-box #introduction-text1 {
+        font-size: 9px;
+        width: 85%;
+        height: 55%;
+    }
+
+    #introduction-texts-box #introduction-text2 {
+        font-size: 9px;
+        margin-left: 3%;
+        height: 45%;
+    }
+    #introduction-videobox {
+        height: 80%;
+        align-items: flex-start;
+        padding-top: 25%;
+    }
+    #introduction-videobox #video1 {
+        width: 85%;
+        height: 60%;
+    }
+    main #middle1::after {
+        bottom: -80%;
+    }
+    #middle1-text h2 {
+        font-size: 14px;
+    }
+    #middle1 #middle1-titles-box {
+        gap: 10%    
+    }
+    #middle1-titles-box #title1-box {
+        font-size: 12px;
+        width: 25%;
+    }
+
+    #middle1-titles-box #title2-box {
+        font-size: 12px;
+        width: 25%;
+    }
+    #middle1 #middle1-lists-box {
+        justify-content: space-between;
+    }
+
+    #middle1-lists-box #list1-box {
+        width: 48%;
+    }
+
+    #middle1-lists-box #list2-box {
+        width: 48%;
+    }
+
+    .list1Li {
+        font-size: 5px;
+    }
+
+    .list2Li {
+        font-size: 5px;
+    }
+
+    .fa-circle-xmark {
+        font-size: 10px;
+    }
+
+    .fa-circle-check {
+        font-size: 10px;
+    }
+    main #middle2 {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: none;
+    }
+    main #middle2::after {
+        bottom: -180%;
+    }
+    #middle2 #back-button {
+        position: absolute;
+        left: 8%;
+        top: 223%;
+        margin-bottom: 10%;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 85%);
+    }
+    #middle2 #next-button {
+        position: absolute;
+        right: 8.5%;
+        top: 223%;
+        margin-bottom: 10%;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 85%);
+    }
+    .carrossel{
+        width: 325px;
+        height: 325px;
+        box-shadow: 2px 2px 20px 0px #39e600;
+        margin-right: 1%;
+        background-size: contain;
+    }
+    #middle2 .middle2-textbox {
+        width: 100%;
+        height: 15%;
+        gap: 3%;
+
+    }
+    #middle2 .middle2-textbox2 {
+        width: 100%;
+        height: 25%;
+    }
+    .middle2-textbox .middle2-text1 {
+        font-size: 20px;
+    }
+    .middle2-textbox .middle2-text2 {
+        font-size: 8px;
+        margin-top: 4%;
+        margin-left: 0;
+    }
+
+    .middle2-textbox .middle2-text3 {
+        width: 85%;
+        height: 20%;
+        gap: 3%;
+        margin-left: 0;
+        font-size: 6px;
+        margin-top: 3%;
+        flex-direction: row;
+    }
+    
+    .middle2-textbox2 .middle2-text4 {
+        font-size: 20px;
+    }
+
+    .middle2-textbox2 .middle2-text5 {
+        font-size: 8px;
+        margin-top: 4%;
+    }
+
+    .middle2-textbox2 .middle2-text6 {
+        font-size: 8px;
+        margin-top: 1%;
+        align-items: flex-start;
+        width: 65%;
+    }
+    .middle2-text6 i {
+        font-size: 8px;
+    }
+    #whats-button-box {
+        width: 80%;
+        justify-content: center;
+        margin-top: 3%;
+    }
+    #whats-button {
+        font-size: 14px;
+    }
+    .whats-button-sticky {
+        display: none;
+    }
+    main #middle3{
+        align-items: flex-start;
+    }
+    main #middle3::after {
+        bottom: -480%;
+    }
+    #middle3 #middle3-textbox {
+        height: 5%;
+        justify-content: center;
+    }
+    #middle3-textbox h4{
+        font-size: 17px;
+        margin-left: 5%;
+    }
+    #middle3-textbox p{
+        font-size: 12px;
+    }
+    #modules-box1::after {
+        width: 4px;
+        bottom: -472.5%;
+        left: 47.7%;
+        height: 275%;
+    }
+    #middle3 #modules-box1 {
+        height: 90%;
+    }
+    #middle3 #modules-box2 {
+        height: 90%;
+    }
+    #modules-box1 .modules-infobox1 {
+        width: 85%;
+        box-shadow: 2px 0px 10px 2px #cccccc;
+    }
+    #modules-box2 .modules-infobox2 {
+        width: 85%;
+        box-shadow: 2px 0px 10px 2px #cccccc;
+        margin-right: 4%;
+    }
+    .modules-infobox1 .saiba-mais {
+        font-size: 10px;
+    }
+    .modules-infobox2 .saiba-mais {
+        font-size: 10px;
+    }
+    .saiba-mais-titulo {
+        font-size: 24px;
+    }
+    .saiba-mais-descricao {
+        font-size: 10px;
+    }
+    main #middle4 {
+        padding-top: 2%;
+        height: 160vh;
+        row-gap: 2%;
+    }
+    main #middle4::after {
+        bottom: -640%;
+    }
+    #middle4 #advantages-container {
+        height: 30%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2%;
+    }
+    #advantages-container .advantage {
+        margin-left: 7.7%;
+        width: 80%;
+        height: 80%;
+    }
+    .advantage .advantage-title {
+        font-size: 16px;
+    }
+    .advantage .advantage-description {
+        font-size: 10px;
+    }
+    .advantage #check1 {
+        font-size: 20px;
+    }
+    #middle4 #assign-intro {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    #assign-intro span {  
+        font-size: 25px;
+    }
+    #assign-intro h3 {
+        font-size: 10px;
+    }
+    #assign-price #price {
+        font-size: 65px;
+    }
+    
+    #middle4 #assign-container{
+        box-shadow: 10px 10px 1px 1px #f9f047;
+        width: 80%;
+        height: 50%;    
+    }
+    #assign-container .plan {
+        font-size: 14px;
+    }
+    .assign-titles {
+        font-size: 16px;
+    }
+    #benefits-list .fa-solid.fa-check {
+        font-size: 10px;
+    }
+    #benefits-list {
+        margin-top: 1.5%;
+    }
+    #benefit {
+        font-size: 8px;
+    }
+    #bonus ul {
+        font-size: 8px;
+    }
+    #assign-container #assign-button {
+        margin-left: 20%;
+        margin-top: 10%;
+        width: 60%;
+        height: 20%;
+    }
+    #assign-button button {
+        width: 60%;
+        height: 60%;
+        font-size: 18px;
+        width: 100%;
+    }
+    main #middle5::after {
+        bottom: -720%;
+     }
+    #middle5 #middle5-textbox {
+        font-size: 30px;
+    }
+    
+    #professor-container #professor-image {
+        width: 50%;
+        height: 75%;
+        background-position: 50% 50%;
+    }
+    #professor-container #professor-info{
+        font-size: 7px;
+    }
+    #professor-info .fa-brands.fa-slack {
+        font-size: 10px;
+    }
+    main #middle6::after {
+        bottom: -810%;
+    }
+    #middle6 #middle6-textbox {
+        font-size: 32px;
+    }
+    #questions-container #question {
+        width: 70%;
+        font-size: 10px;
+    }
+    #question .fa-solid {
+        font-size: 12px;
+    }
+    #questions-container #answer{
+        width: 60%;
+        font-size: 8px;
+        margin-left: 2%;
+        padding-top: 1%;
+    }
+    body footer {
+        height: 15vh;
+    }
+    #logo-socials-container #footer-logo {
+        width: 40%;
+    }
+    #logo-socials-container #socials {
+        width: 40%;
+    }
+    #socials button {
+        font-size: 18px;
+    }
+    footer #copy {
+        font-size: 6px;
     }
 }

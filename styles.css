@@ -100,7 +100,7 @@ nav #header-buy-button-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 26%;
+    width: 30%;
     height: 100%;
 }
 
@@ -367,19 +367,10 @@ main #middle2::after {
     background: linear-gradient(to right, #0fd850, #f9f047);
 }
 
-.carrossel {
-    width: 500px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 2px 2px 10px 2px #39e600;
-    border: #ffffff double 2px;
-    overflow: hidden;
-}
-
 #middle2 #back-button {
     cursor: pointer;
+    position: relative;
+    left: -39%;
     width: 1%;
     height: 5%;
     background: none;
@@ -395,6 +386,8 @@ main #middle2::after {
 
 #middle2 #next-button {
     cursor: pointer;
+    position: relative;
+    right: 5%;
     width: 1%;
     height: 5%;
     background: none;
@@ -406,6 +399,17 @@ main #middle2::after {
 
 #middle2 #next-button:hover {
     color: #ffffff;
+}
+
+.carrossel {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px 2px #39e600;
+    border: #ffffff double 2px;
+    overflow: hidden;
 }
 
 .carrossel .img-container {
@@ -586,7 +590,7 @@ main #middle3 {
     height: 300vh;
     background-color: #000000;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -605,8 +609,7 @@ main #middle3::after {
     width: 90%;
     height: 5%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     gap: 10%;
 }
@@ -750,7 +753,7 @@ main #middle3::after {
 
 main #middle4 {
     width: 100vw;
-    height: 200vh;
+    height: 230vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1133,7 +1136,7 @@ main #middle6::after {
     border: #000000 solid 2px;
     opacity: 0;
     transform: translateY(0);
-    transition: transform 1s ease-in-out;
+    transition: transform 0.8s ease-in-out;
 }
 
 #answer p {
@@ -1179,6 +1182,11 @@ footer #logo-socials-container {
     color: #0fd850;
     background: none;
     border: none;
+    transition: 0.5s;
+}
+
+#socials button:hover {
+    color: #40f278; 
 }
 
 footer #copy {
