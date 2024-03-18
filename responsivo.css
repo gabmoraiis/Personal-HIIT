@@ -853,6 +853,7 @@
     #introduction {
         width: 100vw;
         height: 100vh;
+        border-bottom: #39e600 solid 2px;
     }
 
     #introduction::after {
@@ -889,10 +890,10 @@
     }
     main #middle1 {
         background-image: url(./assets/fundo-compacao.gif);
+        border-bottom: #39e600 solid 2px;
     }
     main #middle1::after {
-        top: 120%;
-        bottom: 0;
+        display: none;
     }
 
     #middle1-text h2 {
@@ -952,10 +953,11 @@
         height: 100vh;
         flex-direction: column;
         justify-content: none;
+        border-bottom: #39e600 solid 2px;
     }
 
     main #middle2::after {
-        bottom: -180%;
+        display: none;
     }
 
     #middle2 #back-button {
@@ -1051,10 +1053,11 @@
 
     main #middle3 {
         align-items: flex-start;
+        border-bottom: #39e600 solid 2px;
     }
 
     main #middle3::after {
-        bottom: -480%;
+        display: none;
     }
 
     #middle3 #middle3-textbox {
@@ -1072,18 +1075,17 @@
     }
 
     #modules-box1::after {
-        width: 4px;
-        bottom: -472.5%;
-        left: 47.7%;
-        height: 275%;
+        display: none;
     }
 
     #middle3 #modules-box1 {
         height: 90%;
+        border-right: #39e600 solid 1px;
     }
 
     #middle3 #modules-box2 {
         height: 90%;
+        border-left: #39e600 solid 1px;
     }
 
     #modules-box1 .modules-infobox1 {
@@ -1094,7 +1096,6 @@
     #modules-box2 .modules-infobox2 {
         width: 85%;
         box-shadow: 2px 0px 10px 2px #cccccc;
-        margin-right: 4%;
     }
 
     .modules-infobox1 .saiba-mais {
@@ -1117,10 +1118,11 @@
         padding-top: 2%;
         height: 160vh;
         row-gap: 2%;
+        border-bottom: #39e600 solid 2px;
     }
 
     main #middle4::after {
-        bottom: -640%;
+        display: none;
     }
 
     #middle4 #advantages-container {
@@ -1208,9 +1210,11 @@
         font-size: 18px;
         width: 100%;
     }
-
+    main #middle5{
+        border-bottom: #39e600 solid 2px;
+    }
     main #middle5::after {
-        bottom: -720%;
+        display: none;
     }
 
     #middle5 #middle5-textbox {
@@ -1231,8 +1235,12 @@
         font-size: 10px;
     }
 
+    main #middle6{
+        border-bottom: #39e600 solid 2px;
+    }
+
     main #middle6::after {
-        bottom: -810%;
+        display: none;
     }
 
     #middle6 #middle6-textbox {
