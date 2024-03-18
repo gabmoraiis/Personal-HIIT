@@ -35,9 +35,7 @@ body {
 #introduction {
     width: 100vw;
     height: 100vh;
-    background-image: url('./assets/introduction-bg.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background:url('./assets/fundo-compacao.gif')
 }
 
 #introduction::after {
@@ -60,25 +58,29 @@ header nav {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding-left: 15%;
+    gap: 10%;
 }
 
 nav #header-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 15%;
     height: 100%;
+    background-image: url('./assets/logo-funcionalhiit.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
 }
 
 nav #header-buttons-box {
-    width: 49%;
+    width: 30%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 50px;
 }
 
 #header-buttons-box .header-buttons {
@@ -100,7 +102,7 @@ nav #header-buy-button-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 25%;
     height: 100%;
 }
 
@@ -116,16 +118,16 @@ a {
     cursor: pointer;
     color: #000000;
     font-weight: 900;
-    font-size: 21px;
+    font-size: 19px;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 1px;
     background-color: #39e600;
-    width: 70%;
+    width: 80%;
     height: 40%;
-    background-image: linear-gradient(-30deg, #f10d5e 0%, #ffb43e 25%, #43e03c 50%, #ffb43e 100%);
+    background-image: linear-gradient(-30deg, #ffb43e 0%, #ffb43e 25%, #43e03c 50%, #ffb43e 100%);
     overflow: hidden;
     background-size: 200% 200%;
-    border: #000000 double 2px;
+    border: #000000 solid 2px;
     animation: slideColor 5s ease infinite;
     transition: 1.5s;
 }
@@ -188,7 +190,7 @@ a {
 main #middle1 {
     width: 100vw;
     height: 80vh;
-    background-color: #000000;
+    background:url('./assets/fundo-compacao.gif');
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -270,9 +272,6 @@ main #middle1::after {
     flex-wrap: wrap;
     width: 40%;
     height: 100%;
-    background: url('./assets/fundo-compacao.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
     margin-top: 0.5%;
 }
 
@@ -290,9 +289,6 @@ main #middle1::after {
     flex-wrap: wrap;
     width: 40%;
     height: 100%;
-    background: url('./assets/fundo-compacao.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
     margin-top: 0.5%;
 }
 
@@ -370,7 +366,7 @@ main #middle2::after {
 #middle2 #back-button {
     cursor: pointer;
     position: relative;
-    left: -39%;
+    left: -30.5%;
     width: 1%;
     height: 5%;
     background: none;
@@ -387,7 +383,7 @@ main #middle2::after {
 #middle2 #next-button {
     cursor: pointer;
     position: relative;
-    right: 5%;
+    right: 5.5%;
     width: 1%;
     height: 5%;
     background: none;
@@ -607,10 +603,11 @@ main #middle3::after {
 
 #middle3 #middle3-textbox {
     width: 90%;
-    height: 5%;
+    height: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 10%;
 }
 
@@ -628,7 +625,7 @@ main #middle3::after {
 
 #middle3 #modules-box1 {
     width: 50%;
-    height: 80%;
+    height: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -651,7 +648,7 @@ main #middle3::after {
 
 #middle3 #modules-box2 {
     width: 50%;
-    height: 80%;
+    height: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -767,7 +764,7 @@ main #middle4::after {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: -660%;
+    bottom: -690%;
     left: 0;
     width: 95%;
     height: 4px;
@@ -996,7 +993,7 @@ main #middle5::after {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: -740%;
+    bottom: -770%;
     left: 0;
     width: 95%;
     height: 4px;
@@ -1070,7 +1067,7 @@ main #middle6::after {
     content: "";
     margin-left: 2.5%;
     position: absolute;
-    bottom: -830%;
+    bottom: -860%;
     left: 0;
     width: 95%;
     height: 4px;
@@ -1147,7 +1144,7 @@ main #middle6::after {
 body footer {
     width: 100vw;
     height: 25vh;
-    background-image: url('./assets/introduction-bg.jpg');
+    background-image: url('./assets/fundo-compacao.gif');
     background-position: 90% 90%;
 }
 
