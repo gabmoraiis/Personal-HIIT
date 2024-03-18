@@ -822,8 +822,8 @@
 
 @media (max-width: 450px) {
     #introduction {
-        width: 80vw;
-        height: 80vh;
+        width: 90vw;
+        height: 90vh;
     }
     nav #header-logo {
         width: 50%;
