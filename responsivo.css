@@ -821,10 +821,7 @@
 }
 
 @media (max-width: 450px) {
-    #introduction {
-        width: 90vw;
-        height: 90vh;
-    }
+
     nav #header-logo {
         width: 50%;
     }
