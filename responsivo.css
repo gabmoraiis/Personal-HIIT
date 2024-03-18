@@ -891,7 +891,7 @@
         background-image: url(./assets/fundo-compacao.gif);
     }
     main #middle1::after {
-        top: 100%;
+        top: 120%;
         bottom: 0;
     }
 
