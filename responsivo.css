@@ -854,9 +854,9 @@
         width: 100vw;
         height: 100vh;
     }
-    
+
     #introduction::after {
-        bottom: 0%;
+        display: none;
     }
 
     #introduction #introduction-texts-box {
@@ -891,7 +891,8 @@
         background-image: url(./assets/fundo-compacao.gif);
     }
     main #middle1::after {
-        bottom: -80%;
+        top: 100%;
+        bottom: 0;
     }
 
     #middle1-text h2 {
