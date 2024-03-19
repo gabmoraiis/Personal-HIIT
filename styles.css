@@ -193,7 +193,7 @@ a {
 main #middle1 {
     width: 100vw;
     height: 80vh;
-    background:url('./assets/fundo-compacao.gif');
+    background-image: url(./assets/fundo-middle1.gif);
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
