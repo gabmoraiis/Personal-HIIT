@@ -479,7 +479,9 @@
         height: 100%;
         font-size: 12px;
     }
-
+    #introduction{
+        background-image: url('./assets/fundo-middle1-mobile.gif');
+    }
     #introduction::after {
         bottom: 0%;
     }
@@ -508,9 +510,10 @@
         width: 75%;
         height: 80%;
     }
-
-    main #middle1::after {
+    main #middle1{
         background-image: url('./assets/fundo-middle1-mobile.gif');
+    }
+    main #middle1::after {
         bottom: -80%;
     }
 
@@ -858,6 +861,7 @@
         width: 100vw;
         height: 100vh;
         border-bottom: #39e600 solid 2px;
+        background-image: url('./assets/fundo-middle1-mobile.gif');
     }
 
     #introduction::after {
@@ -893,7 +897,7 @@
         height: 100%;
     }
     main #middle1 {
-        background-image: url(./assets/);
+        background-image: url(./assets/fundo-middle1-mobile.gif);
         border-bottom: #39e600 solid 2px;
     }
     main #middle1::after {

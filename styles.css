@@ -38,7 +38,7 @@ main{
 #introduction {
     width: 100vw;
     height: 100vh;
-    background:url('./assets/fundo-compacao.gif')
+    background:url('./assets/fundo-middle1.gif')
 }
 
 #introduction::after {
@@ -193,7 +193,7 @@ a {
 main #middle1 {
     width: 100vw;
     height: 80vh;
-    background-image: url(./assets/fundo-middle1.gif);
+    background-image: url('./assets/fundo-middle1.gif');
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -369,7 +369,7 @@ main #middle2::after {
 #middle2 #back-button {
     cursor: pointer;
     position: relative;
-    left: -30.5%;
+    left: -29.5%;
     width: 1%;
     height: 5%;
     background: none;
@@ -386,7 +386,7 @@ main #middle2::after {
 #middle2 #next-button {
     cursor: pointer;
     position: relative;
-    right: 5.5%;
+    right: 3.7%;
     width: 1%;
     height: 5%;
     background: none;
@@ -409,6 +409,7 @@ main #middle2::after {
     box-shadow: 2px 2px 10px 2px #39e600;
     border: #ffffff double 2px;
     overflow: hidden;
+    margin-left: 5.5%;
 }
 
 .carrossel .img-container {
@@ -432,6 +433,7 @@ main #middle2::after {
     display: flex;
     flex-direction: column;
     align-items: center;
+  
 }
 
 #middle2 .middle2-textbox2 {
